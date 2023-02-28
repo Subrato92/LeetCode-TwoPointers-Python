@@ -13,7 +13,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     print(TwoPointerFactory.Factory.ARRANGE_CHAR.name)
 
-    TwoPointerFactory.Factory.FOUR_SUM.value().solve()
+    TwoPointerFactory.Factory.TOTAL_TRAPPED_RAINWATER.value().solve()
 
 
 def testDS():
@@ -41,10 +41,6 @@ def testDS():
     l = [4,0,5,-5,3,3,0,-4,-5]
     l.sort()
     print(l)
-
-
-
-
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
